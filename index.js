@@ -1,0 +1,43 @@
+# Temporary files
+/tmp
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Build dir
+/build
+
+# Python
+*.pyc
+
+# Kicad
+export/
+libs.local/
+
+#archives
+*.tar
+*.zip
+*.tgz
+*.gz
+
+#screen casts
+*.mkv
